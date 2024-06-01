@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.facebook-cover,
+.facebookLogin-container {
+    box-sizing: border-box;
+    width: 580px;
+    margin-top: 10px;
+    margin-right: 0;
+    padding: 20px 32px 10px 15px;
+}
+
+.facebook-cover img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: -100px;
+}
+.facebook-cover .cover-text {
+    font-size: 30px;
+    width: 500px;
+    font-weight: normal;
+    line-height: 32px;
+    padding-left: 7px;
+}
+
+.facebookLogin-container {
+    margin-top: 150px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #00000017;
+    border-radius: 10px;
+}
+
+.facebookLogin-container form input {
+    font-size: 18px;
+    padding: 14px 17px;
+    margin: 15px 15px;
+    width: 520px;
+}
+
+.facebookLogin-container form input::placeholder {    
+    font-size: 1.4rem;
+    font-weight: 450;
+    font-style: normal;
+    color: #00000088;
+}
+
+.facebookLogin-container button {
+    display: block;
+    font-size: 25px;
+    width: 520px;
+    margin: 10px 15px;
+    font-weight: 500;
+}
+
+a.ForgetPassword-link{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.facebookLogin-container hr {
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #00000088;
+}
+
+.facebookLogin-container .CreateAccount-button {
+    width: 270px;
+    margin: 35px auto;
+    background-color: #42b72a;
+    color: #ffff;
+}
+
+.Create-page-link {
+    position: absolute;
+    bottom: -70px;
+    right: 150px;
+    font-size: 18px;
+}
+
+.Create-page-link a {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
